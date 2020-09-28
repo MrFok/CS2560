@@ -6,7 +6,7 @@
 * assignment: A1
 * date last modified: 9/29/2020
 *
-* purpose: Abstract class 
+* purpose: Encapsulates all information regarding question. 
 ****************************************************************/
 package A1;
 public class Question
@@ -90,12 +90,6 @@ public class Question
 					stats[i] = stats[i] + 1;			//increments answer used
 				}
 			}
-			
-//			for(int j = 0; j < numOfChoices + 2; j++)		//DEBUG
-//			{
-//				System.out.print(stats[j] + ", ");
-//			}
-//			System.out.print("\n");
 		}
 		
 		if(wrong == false)
