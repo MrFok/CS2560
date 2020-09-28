@@ -1,3 +1,13 @@
+/***************************************************************
+* file: CS3560_A1
+* author: Ricky Fok
+* class: Answer
+*
+* assignment: A1
+* date last modified: 9/29/2020
+*
+* purpose: main. Sets up structure of program
+****************************************************************/
 package A1;
 
 
@@ -25,7 +35,8 @@ public class SimulationDriver
 		//FORCE QUESTION TYPE
 //		rand = 1;		// Single-Choice
 //		rand = 2;		// Multiple-Choice
-
+	
+		//Question Selector
 		if(rand % 2 == 1)
 		{
 			q = new Question(scQuestion, scCandidates, 0);	
