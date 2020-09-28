@@ -1,7 +1,7 @@
 /***************************************************************
 * file: CS3560_A1
 * author: Ricky Fok
-* class: Answer
+* class: CS 3560
 *
 * assignment: A1
 * date last modified: 9/29/2020
